@@ -9,7 +9,7 @@ import threading
 import string
 import random
 import base64
-import urllib.request
+from urllib2 import urlopen
 import urllib.parse
 
 try:
